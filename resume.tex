@@ -1,0 +1,59 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res} 
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=4.7in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\begin{document} 
+ 
+\name{Michael Van Veen\\[12pt]} % the \\[12pt] adds a blank line after name
+\address{{\bf Current Address} \\ 1355 Harrison St.\\ San Francisco, CA 94103}
+\address{{\bf Contact Information} \\ Mobile: (760) 994-9051\\Email: \space michael@mvanveen.net}
+\begin{resume} 
+ 
+\section{Objective}
+Obtain a position in an enterprise or start-up environment where I can contribute to product development using my skills in computer science and my experience with web development.
+
+\section{Experience}
+ {\bf Student Intern,} Jet Propulsion Labs \hfill June 2007 - September 2007, \\
+ \makebox[2.9in]{\hfill} June 2008 - August 2008 \\ 
+ Co-developed a web application which assisted Systems Engineering team in management of command and telemetry dictionaries.
+ \begin{itemize}
+ \item Developed application front-end
+ \item Maintained and updated database backend
+ \item Extended dictionary importation and exportation processes
+ \item Provided a user permissions framework
+ \end{itemize} 
+
+ {\bf Co-founder,} Zooomr, Inc. \hfill October 2005 - June 2007 \\
+ Co-founded Zooomr, Inc., a web-based photo sharing application.  Available at http://beta.zooomr.com.
+ \begin{itemize}
+ \item Devised and co-developed new features
+ \item Provided and managed customer support
+ \item Authored documentation for web service
+ \end{itemize} 
+
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Computer \\ Skills}
+   \begin{tabular}{l p{3in}}
+   \underline{Languages:} & C, C++, Python, PHP, \LaTeX, SQL, HTML, JS , CSS  \\
+   \underline{Platforms} & Linux, UNIX, Mac OS X, Google App Engine, Amazon EC2\\
+   \underline{Software} & Adobe Photoshop, vim, Microsoft Office, OpenOffice.org, Apache Web Server, SSHD, \LaTeX \\
+ \end{tabular}
+
+\section{Education} 
+{\bf San Dieguito High School Academy}, Encinitas, CA 92007 \hfill 2003 - 2007 \\
+ GPA: 4.21
+
+{\bf University of California, Davis}  \hfill 2007 - 2011\\
+Majoring in Computer Science \\
+GPA: 3.32
+
+\section{Interests}
+Photography, Cycling, Reading, Backpacking
+
+\end{resume} 
+\end{document} 
